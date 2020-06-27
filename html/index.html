@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Ludo Game</title>
+
+ 	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<link href="..//bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   
+    <link href="..//css/styles.css" rel="stylesheet">
+    <script src="..//js/index.js"></script>   
+    
+</head>
+
+<body >
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="ludoplane">
+
+                    <div class="Green" id="g1" onclick="">
+
+                    </div>
+
+                    <div class="Green" id="g2" onclick="">
+
+                    </div>
+                    <div class="Green" id="g3" onclick="">
+
+                    </div>
+                    <div class="Green" id="g4" onclick="">
+
+                    </div>
+
+
+                    <div class="blue" id="b1" onclick="">
+
+                    </div>
+                    <div class="blue" id="b2" onclick="">
+
+                    </div>                
+                    <div class="blue" id="b3" onclick="">
+
+                    </div>
+                    <div class="blue" id="b4" onclick="">
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <button class="btn btn-primary btnStart"  type="button" id="startBtn" onclick="StartGame()"> Start Game</button>
+                <button class="btn btn-primary btnStop"  type="button" id="stopBtn" onclick="stopGame('null')"> Stop Game</button>
+                
+                <div class="dice" id="dice" onclick="">
+                    <div class="" id="number"></div>
+                </div>
+                <p class="roll" id="roll">Roll The dice by clicking on it</p>
+                <p class="pdesign" id="player">Green's Turn</p>
+                <div class="resultArea" id="resultArea">
+
+                    <p>Green score: <span id="gscore">0</span></p>
+                    <p>Blue score:<span id="bscore">0</span></p>
+                    <p class="pdesig2" >Winner: <span id="winner"></span></p>
+                </div>
+            </div>
+    </div>
+</body>
+
+</html>

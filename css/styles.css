@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.ludoplane{
+    
+    background-image: url("..//images/ludo_board.png");
+    background-size: 600px 600px;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 600px;
+    display: inline-block;
+}
+
+.dice{
+    
+    background-image: url("..//images/dice.png");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+
+
+.roll{
+    display: inline-block;
+    vertical-align: top;
+    padding-top:30px;
+    padding-left: 10px;
+    color: red;
+    display: none;
+}
+
+.btnStart{
+    margin-top:10px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.btnStop{
+    margin-top:10px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.pdesign{
+    font-size: 20px;
+    color:green;
+    margin-top: 15px;
+    display: none;
+
+}
+
+.pdesig2{
+    font-size: 20px;
+    color:black;
+    margin-top: 15px;
+    display: block;
+
+}
+
+.resultArea{
+    display: none;
+}
+
+.Green{
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    background-color: #409F27;
+    display: inline-block;
+    border-radius: 20px;
+   
+}
+
+.blue{
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    background-color: #4580EB;
+    display: inline-block;
+    border-radius: 20px;
+     
+
+}
+
+.one{
+    background-image: url("..//images/1.png");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+   
+}
+
+.two{
+    background-image: url("..//images/2.png");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.three{
+    background-image: url("..//images/3.png");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.four{
+    background-image: url("..//images/4.png");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.five{
+    background-image: url("..//images/5.png");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.six{
+    background-image: url("..//images/6.png");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+#g1{
+    top:104px;
+    left:81px;
+
+
+}
+
+#g2{
+ top:65px;
+    left:120px;
+}
+
+#g3{
+    top:104px;
+    left:159px;
+
+
+}
+
+#g4{
+    top:143px;
+    left:120px;
+}
+
+#b1{
+    top:452px;
+    left:506px;
+}
+
+#b2{
+    top:491px;
+    left:467px;
+}
+
+#b3{
+     top:452px;
+    left:428px;
+}
+
+#b4{
+    top:413px;
+    left:467px;
+}
